@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real SomaLivros = (3*26.90) + 34.10 + 29.90 + 50.00
+		//Variavél que representa a soma dos valores dos 6 livros.
+
+		escreva("O valor total da compra dos livros é ", SomaLivros)
+	
+	}
+}
