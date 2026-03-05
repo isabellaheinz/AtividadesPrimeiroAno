@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Me informe a medida em metros que convertárei para centimetros!", "\n")
+
+		real medida 
+		leia(medida)
+
+		real novaMedida = medida*100
+
+		escreva("O valor ", medida, " metros, se tornará: ", novaMedida, " centimetros.")
+	}
+}
