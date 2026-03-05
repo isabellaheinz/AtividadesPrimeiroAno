@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Quantos reais você tem economizados para o PS5?")
+
+		real dinheiroEconomizado 
+		leia (dinheiroEconomizado)
+
+		real precoPs5 = 6*1300 //
+		real dinheiroFaltandoBrl = precoPs5-dinheiroEconomizado
+		real dinheiroFaltandoUsd = dinheiroFaltandoBrl/6
+		inteiro livrosHp = precoPs5/27 
+
+		escreva("Faltam ", dinheiroFaltandoUsd, " doláres para comprar o Ps5.", "\n")
+		escreva("Faltam ", dinheiroFaltandoBrl, " reais para comprar o Ps5.", "\n")
+		escreva("Você poderia comprar ", livrosHp, " livros Harry Potter e a pedra filosofal com este dinheiro!")
+	}
+}
