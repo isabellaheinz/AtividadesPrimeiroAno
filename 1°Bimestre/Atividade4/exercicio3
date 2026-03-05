@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia mae = "Tess"
+		cadeia filha = "Anna"
+
+	
+		escreva("Antes de comerem os biscoitos, a mãe era a ", mae, " e a filha era a ", filha, "\n")
+
+		cadeia novaMae 
+		novaMae = mae
+		mae = filha
+
+		escreva("Após comerem os biscoitos, a mãe se torna a ", filha, " e a filha se torna ", novaMae)
+		
+	}
+}
