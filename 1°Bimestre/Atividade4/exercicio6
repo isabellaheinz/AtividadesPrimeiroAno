@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Me informe o comprimento do estádio em metros!")
+		
+		real comprimento
+		leia(comprimento)
+		
+		escreva ("Me informe a largura do estádio em metros!")
+
+		real largura
+		leia(largura)
+
+		real area = largura*comprimento
+		real dobroArea = area*2
+		real centimetrosArea = dobroArea*10000 //é multiplicado por 10.000 porque estava em área ao quadrado.
+
+		escreva("A área do estadio é ", area, "m2", "\n" )
+		escreva("O dobro da área do estadio é ", dobroArea, "m2", "\n" ) 
+		escreva("O dobro da área do estadio, medido em centimetros é ", centimetrosArea, "cm2")
+	}
+}
